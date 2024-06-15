@@ -67,8 +67,6 @@ ul.external-links {
 }
 
 .column.projects {
-    max-height: 400px;
-    overflow-y: scroll;
     margin-left: 2em;
 }
 

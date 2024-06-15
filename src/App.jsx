@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import githubLogo from './assets/github-mark.svg'
+import linkedinLogo from './assets/li-logo.png'
 import './App.css'
 
 function getWindowDimensions() {
@@ -45,15 +46,19 @@ function Welcome ({displayAdios}) {
         <>
           <h1>Welcome!</h1>
 
-          <p>You have reached the landing page of tomazgda.</p>
+          <p>You have reached the landing page of Tomaz GdA</p>
           
           <div>
             <a href="https://react.dev" target="_blank">
               <img src={reactLogo} className="logo react" alt="Vite logo" />
             </a>
             <a href="https://github.com/tomazgda/" target="_blank">
-              <img src={githubLogo} className="logo" alt="Github logo" />
+              <img src={githubLogo} className="logo github" alt="Github logo" />
             </a>
+            <a href="https://www.linkedin.com/in/tomaz-geddes-de-almeida-530706313" target="_blank">
+              <img src={linkedinLogo} className="logo linkedin" alt="LinkedIn logo" />
+            </a>
+
           </div>
 
           {displayAdios && <Adios/>}
@@ -65,12 +70,13 @@ function Projects() {
     return (
         <>
           <div className="card">
-            <h2> <code> $ ls -l projects</code> </h2>
+            <h2> <code> $ ls -l projects/</code> </h2>
             
             <ul className="external-links">
-              <li> <a href="https://github.com/tomazgda/churn_predictions">Churn Predictions</a> <p className="description">ML Pipeline for predicting churn, productionised with GitHub Actions</p></li>
-              
+              <li> <a href="https://github.com/tomazgda/churn_predictions">Churn Predictions</a> <p className="description">2024 work experience project at Sky Data</p></li>
+              <li> <a href="https://github.com/tomazgda/web-landing-page">Landing Page</a> <p className="description">This website (built with Vite and React)</p></li>
               <li> <a href="https://tomazgda.github.io/blog/">Blog</a> <p className="description">Largely a collection of poems.</p></li>
+              <li> <a href="https://github.com/tomazgda/web-trex">web-trex</a> <p className="description">2022 work experience project at the Alan Turing Institute</p></li>
             </ul> 
             
           </div>

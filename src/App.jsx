@@ -75,7 +75,7 @@ function Projects() {
             <ul className="external-links">
               <li> <a href="https://github.com/tomazgda/churn_predictions">Churn Predictions</a> <p className="description">2024 work experience project at Sky Data</p></li>
               <li> <a href="https://github.com/tomazgda/web-landing-page">Landing Page</a> <p className="description">This website (built with Vite and React)</p></li>
-              <li> <a href="https://tomazgda.github.io/blog/">Blog</a> <p className="description">Largely a collection of poems.</p></li>
+              {/* <li> <a href="https://tomazgda.github.io/blog/">Blog</a> <p className="description">Largely a collection of poems.</p></li> */}
               <li> <a href="https://github.com/tomazgda/web-trex">web-trex</a> <p className="description">2022 work experience project at the Alan Turing Institute</p></li>
             </ul> 
             
